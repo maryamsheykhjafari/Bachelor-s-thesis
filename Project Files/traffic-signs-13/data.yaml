@@ -1,0 +1,32 @@
+names:
+- bus station
+- left side view
+- max height
+- max speed
+- no entry
+- no left turn
+- no overtaking
+- no right turn
+- no stopping
+- no through road
+- one way traffic
+- p crossing ahead
+- parking for disabled
+- parking lot
+- road bump ahead
+- round about
+- school crossing
+- single left side view
+- single right side view
+- stop
+- uneven road
+nc: 21
+roboflow:
+  license: CC BY 4.0
+  project: traffic-signs-nvfvr
+  url: https://universe.roboflow.com/traffic-signs-28dos/traffic-signs-nvfvr/dataset/13
+  version: 13
+  workspace: traffic-signs-28dos
+test: ../test/images
+train: traffic-signs-13/train/images
+val: traffic-signs-13/valid/images
